@@ -17,8 +17,8 @@ a.	Date stamp for the unique email address.
 
 public class DemoNop_7 extends Util{
  public static void main(String[] args) {
-//
 
+//add commit name
      System.setProperty("webdriver.chrome.driver", "src\\Resources\\chromedriver.exe");
      driver = new ChromeDriver();
      driver.get("https://demo.nopcommerce.com/");
